@@ -1,0 +1,1 @@
+This is a project created by express js to solidify knowledge learnt on the topics routers, controlles, middleware and views
