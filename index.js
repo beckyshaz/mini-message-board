@@ -22,7 +22,7 @@ App.use("/", messageRouter);
 //App.use("/new", messageRouter);
 
 
-const PORT = 1000;
+const PORT = 3000;
 
 App.listen(PORT, (error) => {
     if (error) {
