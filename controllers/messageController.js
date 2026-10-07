@@ -2,6 +2,7 @@
 
 const db = require("../models/queries");
 
+
 const  getMessages = async (req, res) => {
     const messages =  await db.getMessagesAndUsernames();
     res.render("index", { title: "Mini Messageboard", messages: messages });
@@ -10,6 +11,8 @@ const  getMessages = async (req, res) => {
 const newMessages = (req, res) => {
     res.render("form");
 }
+
+
 
 const newPostedMessage =  async (req, res) => {
     const username = req.body.messageAuthor;
